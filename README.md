@@ -7,7 +7,7 @@
 - [[05] Publish & Subscribe](./docs/meteor_05.md)
 - [[06] 利用 method 修改資料](./docs/meteor_06.md)
 - [[07] 存取 mongo DB 和資料驗證](./docs/meteor_07.md)
-- [08] 存取 mongo DB 和資料驗證
+- [08] 常用的 query 指令
 - [[09] Docker 簡介](./docs/meteor_09.md)
 - [[10] Docker Container 簡介](./docs/meteor_10.md)
 - [11] Docker Compose 設定
