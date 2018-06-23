@@ -77,3 +77,5 @@ meteor npm install --save-dev babel-eslint eslint-config-airbnb eslint-plugin-im
 ```
 
 React 和 eslint 的環境設定就到這裡，在下一篇會以一個簡單、不具文字留存功能的聊天視窗當作範例，並使用 Redux 切換視窗的佈景，接著再進入 Meteor 的 data flow 部分，並和 Redux 的 data flow 作比較。
+
+[返回目錄](../README.md)

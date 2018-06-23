@@ -32,3 +32,5 @@ class SocketHandler {
 Meteor 在處理這些需要實時同步的資料提供 Subscribe & Publish 的方式，可以想成直接協助開發者把需要同步的部分丟在特別的 store，這邊的同步由 Meteor 負責，所以前端要做的就只是由這個 store 的狀態定義呈現的方式（聽起來有點像第一種作法的打包@#$%）。因此就我目前的想法，在 Meteor 中 redux 可以負責與 server 無關的狀態處理（例如清單 filter 的呈現，更換應用的佈景主題）和不需要同步的資料獲取，把需要同步的部分交給 Meteor 處理。
 
 今天的部分用範例說明用 Redux 改變 [Material-ui](https://material-ui-next.com) 的佈景主題，有興趣可以參考[這裡](https://github.com/pomelyu/meteor-message/releases/new?tag=user-redux-change-theme)
+
+[返回目錄](../README.md)
